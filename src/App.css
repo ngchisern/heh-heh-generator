@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(315deg, #d5fefd 0%, #fffcff 74%) no-repeat center
+    center fixed;
+  background-size: 150;
+}
+
+.App {
+  text-align: center;
+  font-family: "Play", sans-serif;
+}
+
+h4.Tagline {
+  color: #2f4353;
+}
+
+.container {
+  flex-basis: 50%;
+  margin: 1rem;
+  padding: 1rem;
+  margin-top: 7rem;
+}
+
+.popup-content {
+  margin: auto;
+  background: rgb(255, 255, 255);
+  width: 320px;
+  padding: 0px 20px 20px 20px;
+  border-radius: 10px;
+}
+.popup-arrow {
+  color: rgb(255, 255, 255);
+}
+[role="tooltip"].popup-content {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-popup="tooltip"].popup-overlay {
+  background: transparent;
+}
